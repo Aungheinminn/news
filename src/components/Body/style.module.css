@@ -1,0 +1,9 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: grid; 
+     place-items: center;
+}
+.inner{
+    width: 85%;
+}
