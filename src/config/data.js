@@ -65,7 +65,7 @@ export const datas = [
     category: 'cooking',
     subCategory: ['bbq', 'food', 'lifestyle'],
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
     authorName: 'Michael',
     // authorAvatar: '/assets/images/author.jpg',
     authorAvatar:

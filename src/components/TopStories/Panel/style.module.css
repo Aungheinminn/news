@@ -22,9 +22,7 @@
     top: 23%;
     z-index: 4;
     user-select: none;
-    /* display: none; */
   
-    /* visibility: none; */
 }
 .btn{
     width: 157px;
@@ -44,12 +42,10 @@
     list-style-type: none;
     font-size: 16px;
     padding: 5px;
-    /* margin-left: 15px; */
     background-color: white;
     color: black;
     font-weight: 400;
     border: none;
-    /* border-bottom: 3px solid black; */
     text-align: start;
     display: none;
 }

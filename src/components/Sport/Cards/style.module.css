@@ -1,32 +1,30 @@
 .container{
     position: relative;
-    width: 540px;
-    height: 423px;
+    width: 350px;
+    height: 347px;
+    margin-right: 50px;
 }
 .cover{
-    width: 540px;
-    height: 423px;
-    margin-left: 50px;
+    width: 350px;
+    height: 347px;
     object-fit: cover;
 }
 .content{
     position: absolute;
-    width: 540px;
+    width: 350px;
+    height: 124px;
     z-index: 2;
     overflow-x: hidden;
     bottom: 0%;
-    left: 9.3%;
+    left: 0%;
     background-color: blue;
     
 }
 .wrap{
     padding: 5px;
+    height: 70px;
 }
 .h4{
-    font-size: 24px;
-    line-height: 31px;
-}
-.p{
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 29px;
 }

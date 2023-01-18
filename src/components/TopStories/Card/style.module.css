@@ -3,12 +3,10 @@
     width: 255px;
     height: 252px;
     margin-right: 50px;
-    /* gap: 10px; */
 }
 .cover{
     width: 255px;
     height: 252px;
-    /* margin-left: 50px; */
     object-fit: cover;
 }
 .content{
