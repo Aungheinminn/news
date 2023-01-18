@@ -1,0 +1,20 @@
+.container{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    /* flex-direction: row; */
+}
+.wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.solo{
+    margin-right: 30px;
+}
+.two{
+    margin-bottom: 33px;
+    margin-left: 50px;
+}
+/* .topicTwo{
+    margin-left: 20px;
+} */

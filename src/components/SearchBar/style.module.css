@@ -1,5 +1,6 @@
 .container{
     overflow-x: hidden;
+    margin-bottom: 2px;
 }
 .searchBar{
     padding: 3 15px;
@@ -32,7 +33,7 @@
     height: 27.08px;
     position: absolute;
     right: 8.48%;
-    top: 12.71%;
+    top: 12.61%;
     border-bottom: 2px solid white;
     margin-top: 5px;
     display: block;

@@ -1,0 +1,32 @@
+.container{
+    position: relative;
+    width: 255px;
+    height: 252px;
+    margin-right: 50px;
+    /* gap: 10px; */
+}
+.cover{
+    width: 255px;
+    height: 252px;
+    /* margin-left: 50px; */
+    object-fit: cover;
+}
+.content{
+    position: absolute;
+    width: 255px;
+    z-index: 2;
+    overflow-x: hidden;
+    bottom: 0%;
+    left: 0%;
+    background-color: blue;
+    
+}
+.wrap{
+    padding: 5px;
+    height: 70px;
+    overflow: hidden;
+}
+.h4{
+    font-size: 18px;
+    line-height: 25px;
+}
