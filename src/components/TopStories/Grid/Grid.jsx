@@ -4,6 +4,7 @@ import { datas } from "../../../config/data"
 import LastData from "../LastData/LastData"
 import TwoCards from "../TwoCards/TwoCards"
 import CardTopic from "../CardTopic/CardTopic"
+import TripleCard from "../TripleCard/TripleCard"
 
 
 const Grid = () =>{
@@ -22,9 +23,9 @@ const Grid = () =>{
                     </div>
                  </div>
             </div>
-            <div>
+            <div className={classes.wrap1}>
                 <div className={classes.trio}>
-                    
+                   <TripleCard cards={datas} /> 
                 </div>
             </div>
         </div>

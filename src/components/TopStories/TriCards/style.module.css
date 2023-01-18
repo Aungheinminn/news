@@ -1,0 +1,35 @@
+.container{
+    position: relative;
+    width: 355px;
+    height: 347px;
+    /* margin-right: 60px; */
+    margin: 30px;
+}
+.cover{
+    width: 355px;
+    height: 347px;
+    margin-left: 50px;
+    object-fit: cover;
+}
+.content{
+    position: absolute;
+    width: 355px;
+    height: 131px;
+    z-index: 2;
+    overflow: hidden;
+    bottom: 0%;
+    left: 14.3%;
+    background-color: blue;
+    
+}
+.wrap{
+    padding: 5px;
+}
+.h4{
+    font-size: 20px;
+    line-height: 20px;
+}
+.p{
+    font-size: 14px;
+    line-height: 20px;
+}

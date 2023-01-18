@@ -2,7 +2,7 @@
     margin-top: 40px;
     width: 100%;
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: column;
 }
 .wrap{
     display: flex;
@@ -15,6 +15,7 @@
     margin-bottom: 33px;
     margin-left: 50px;
 }
-/* .topicTwo{
-    margin-left: 20px;
-} */
+
+.wrap1{
+    margin-right: 90px;
+}
