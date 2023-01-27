@@ -12,5 +12,6 @@
 @media(max-width:768px){
     .container{
         margin-left: 0px;
+        gap: 20px;
     }    
 }

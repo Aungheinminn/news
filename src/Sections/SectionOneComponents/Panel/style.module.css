@@ -78,10 +78,14 @@
 
 @media(max-width:1024px){
     .container{
-        justify-content: space-evenly;
+        justify-content: space-between;
     } 
     .h1{
         font-size: 38px;
+        margin-left: 5px;
+    }
+    .wrap{
+        margin-right: 50px;
     }
     .btn{
         width: 130px;
