@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap: 30px;
+
+}
+@media(max-width:1024px){
+    .container{
+       display: flex;
+       flex-wrap: wrap;
+        
+    }
+}

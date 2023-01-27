@@ -1,0 +1,23 @@
+.container{
+    width: 255px;
+    height: 138px;
+    background-color: blue;
+
+}
+.wrap{
+    padding: 5px;
+}
+.h4{
+    font-size: 18px;
+    line-height: 25px;
+}
+@media(max-width:1024px){
+    .container{
+        width: 230px;
+    }
+}
+@media(max-width:768px){
+    .container,.cover,.content{
+        width: 290px;
+    }
+}

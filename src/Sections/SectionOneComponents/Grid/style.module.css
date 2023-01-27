@@ -1,0 +1,33 @@
+.main{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 165px; */
+}
+.wrap{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.solo{
+    margin-right: 30px;
+}
+
+.two{
+    margin-bottom: 33px;
+    /* margin-left: 50px; */
+}
+@media(max-width:768px){
+   .wrap{
+        flex-direction: column;
+        align-items: center;
+   }
+   
+}
+

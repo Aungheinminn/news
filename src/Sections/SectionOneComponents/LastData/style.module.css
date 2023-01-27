@@ -1,0 +1,52 @@
+.container{
+    position: relative;
+    width: 540px;
+    height: 423px;
+}
+.cover{
+    width: 100%;
+    height: 423px;
+    /* margin-left: 50px; */
+    object-fit: cover;
+}
+.content{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    overflow-x: hidden;
+    bottom: 0%;
+    left: 0;
+    background-color: blue;
+    
+}
+.wrap{
+    padding: 5px;
+}
+.h4{
+    font-size: 24px;
+    line-height: 31px;
+}
+.p{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@media(max-width:1024px){
+    .container,.cover,.content{
+        width: 340px;
+    }
+    
+    .content{
+        height: 150px;
+        left: 0%;
+        overflow: hidden;
+    }
+}
+@media(max-width:768px){
+    .container,.cover,.content{
+        width: 600px;
+    }
+    .container{
+        margin-bottom: 10px;
+    }
+}

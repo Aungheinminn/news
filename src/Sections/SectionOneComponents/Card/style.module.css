@@ -1,0 +1,45 @@
+.container{
+    position: relative;
+    width: 255px;
+    height: 252px;
+}
+.cover{
+    width: 100%;
+    height: 252px;
+    object-fit: cover;
+}
+.content{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    overflow-x: hidden;
+    bottom: 0%;
+    left: 0%;
+    background-color: blue;
+    
+}
+.wrap{
+    padding: 5px;
+    height: 70px;
+    overflow: hidden;
+}
+.h4{
+    font-size: 18px;
+    line-height: 25px;
+}
+@media(max-width:1024px){
+  
+    .container,.cover{
+        width: 230px;
+        height: 252px;
+    }
+    .content{
+        width: 230px;
+    }
+    
+}
+@media(max-width:768px){
+    .container,.cover,.content{
+        width: 290px;
+    }
+}
