@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import classes from "./style.module.css"
-import bookmark from "./bookmark_24px.png"
+import bookmark from "./bookmark.svg"
 import clsx from "clsx";
+import arrowDown from "./arrowDown.svg"
 
 const Panel = () =>{
     const [drop,setDrop] = useState(false);
@@ -24,14 +25,14 @@ const Panel = () =>{
             </div>
             <div className={classes.wrap}>
                 <button className={classes.btn}>
-                    <img src={bookmark} alt="" /> VIEW BOOKMARK
+                    <img src={bookmark} alt="" className={classes.bm} /> VIEW BOOKMARK
                 </button>
                 <div className={makeBorder} >
                     <li className={dropDown} onClick={()=>{
                         setDrop(!drop),
                         SetDropShow(!dropShow),
                         setUlBorder(!ulBorder)
-                    }}>Newest First</li>
+                    }}>Newest First <img src={arrowDown} alt="" className={classes.ad} /></li>
                     <li className={dropOther}>Newest second</li>
                     <li className={dropOther}>Newest third</li>
                 </div>

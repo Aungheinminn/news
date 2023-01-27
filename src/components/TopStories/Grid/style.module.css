@@ -15,4 +15,15 @@
     margin-bottom: 33px;
     margin-left: 50px;
 }
+.topicTwo{
+    margin-right: 30px;
+}
+@media(max-width:1024px){
+    .solo{
+        margin-right: 0px;
+    }
+    /* .two{
+        margin-left: 0px;
+    } */
+}
 

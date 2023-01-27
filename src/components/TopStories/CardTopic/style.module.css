@@ -4,3 +4,9 @@
     gap: 50px;
     
 }
+
+@media(max-width:1024px){
+    .container{
+        margin-right: 70px;
+    }
+}

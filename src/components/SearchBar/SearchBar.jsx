@@ -6,6 +6,9 @@ import clsx from "clsx";
 
 const SearchBar = () => {
     const [show,setShow] = useState(false)
+    const svgWrapBg = clsx(classes.svgWrap,{
+        [classes.svgWrapBgShow]:show
+    })
     const fadeEffect = clsx(classes.searchBar,{
         [classes.searchBarShow]:show
     })
@@ -15,7 +18,12 @@ const SearchBar = () => {
             <div className={fadeEffect}>
                 <input type="text" className={classes.input} placeholder="Search all new" />
             </div>
-            <img src={search} alt="s" className={classes.svg} onClick={()=>setShow(!show)} />
+            <div className={svgWrapBg}>
+                  <img src={search} alt="s" 
+                    className={classes.svg}
+                    onClick={()=>setShow(!show)} />
+            </div>
+          
         </div>
         
     )

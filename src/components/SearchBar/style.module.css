@@ -1,6 +1,14 @@
 .container{
     overflow-x: hidden;
-    margin-bottom: 2px;
+    /* margin-bottom: 2px; */
+    margin: 94px 201.48px 3px 0;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.svgWrapBgShow{
+    background-color: azure;
+    transition: 1s;
 }
 .searchBar{
     padding: 3 15px;
@@ -10,10 +18,12 @@
     transform: translateX(230px);
     overflow: hidden;
     transition: all 1s; 
-    border-bottom: 2px solid white;
 }
 .searchBarShow{
-    transform: translateX(0px);    
+    transform: translateX(0px); 
+    border-bottom: 2px solid white; 
+    background-color: azure ;
+    /* opacity: .5; */
 }
 .input{
     width: 170px;
@@ -21,19 +31,19 @@
     color: white;
     background: transparent;
     border: none;
-    margin: 3px 0 0 5px;
+    margin: 4px 0 0 5px;
+    border-bottom: 2px solid white;
 }
 .input:focus{
     outline: none;
-    color: white;
+    color: black;
 }
+
 .svg{
     width: 37.05px;
     height: 27.08px;
-    position: absolute;
-    right: 8.48%;
-    top: 12.61%;
     border-bottom: 2px solid white;
-    margin-top: 5px;
+    margin-top: 7px;
     display: block;
+    /* z-index: 3; */
 }

@@ -10,7 +10,7 @@ const NavBar = () =>{
                     <h3 className={classes.h3}>The</h3>
                     <h1 className={classes.h1}>Peaks</h1>
                 </div>
-                <div className={classes.input}>
+                <div className={classes.search}>
                     <SearchBar />
                 </div>
             {/* </div> */}

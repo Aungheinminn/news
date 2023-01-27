@@ -26,7 +26,23 @@
     top: 16.98px;
     left: 3.31px;
 }
-.input{
+/* .input{
     margin-right: 165px;
     margin-top: 94.47px;
-}
+} */
+/* @media(max-width:1024px){
+    .container{
+        width: 100%;
+    }
+    .logo{
+        margin-left: 90px;
+    }
+   
+} */
+/* @media(max-width:768px){
+    .logo{
+        margin-left: 50px;
+    }
+  
+    
+} */

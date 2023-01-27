@@ -30,3 +30,14 @@
     font-size: 14px;
     line-height: 20px;
 }
+
+@media(max-width:1024px){
+    .container,.cover,.content{
+        width: 340px;
+    }
+    .content{
+        height: 150px;
+        left: 15%;
+        overflow: hidden;
+    }
+}
